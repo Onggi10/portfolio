@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
-
+import AnimatedNumber from 'react-animated-number';
 const AnimatedNumbers = dynamic(
     () => {
         return import("react-animated-numbers");
